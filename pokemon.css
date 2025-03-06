@@ -1,0 +1,53 @@
+#infocont{display:grid; grid-template-columns: 450px 800px; width: 1250px}
+
+#poksprite{display: none; height:450px; width:450px; align-self: center; border: 1px black solid; background-color: beige; border-bottom-left-radius: 20px; border-top-left-radius: 20px}
+
+#statDisp{ width:800px; height:450px; display:grid; grid-template-rows: 18% 16% 16% 50%; border-bottom-right-radius: 20px; border-top-right-radius: 20px;}
+
+#pokename{justify-self: start; font-size: 40px; margin-top: 20px; margin-bottom: 0%; margin-left: 15px; justify-self: center;}
+
+#poketype{font-size: x-large; justify-self: center;}
+
+#htwtDisp{font-size: x-large; display:grid; grid-template-columns: 50% 50%; }
+
+#pokeheight{display: inline-block; margin-top: 0%; justify-self: center;}
+
+#pokeweight{display: inline-block; margin-top: 0%; justify-self: center;}
+
+#statCont{display:grid; grid-template-rows: 15% 75%;}
+
+#statsTitle{align-self: center; justify-self: center;}
+
+#statsGrid{display:grid; grid-template-columns: 33% 33% 33%}
+
+.statBox{align-self: center; justify-self: center;}
+
+#imgdiv{height:450px; width:450px; align-self: center;}
+
+
+
+
+
+
+
+
+#submit{display: inline-block;
+outline: 0;
+text-align: center;
+cursor: pointer;
+height: 34px;
+padding: 0 13px;
+color: #fff;
+vertical-align: top;
+border-radius: 3px;
+border: 1px solid transparent;
+background: #cc4d29;
+border-color: #cc4d29;
+font-weight: 600;
+
+line-height: 16px;
+font-size: 11px;}
+#submit.hover {
+    background: #e4461b;
+    border-color: #e4461b;
+}

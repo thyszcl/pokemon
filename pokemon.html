@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="pokemon.css"> 
+    </head>
+    <body style="justify-self: center; background-color: antiquewhite;">
+        <h1 style="justify-self: center;">Type in any pokemon</h1>
+        <div style="justify-self: center; ">
+            <input type="text" id="userinput" style="width: 250px; height:30px;" placeholder="Search..."/>
+            <button id="submit">SUBMIT</button>
+        </div>
+        <div id="WordBox" style="justify-self: center; font-size: large; margin-top: 10px;"></div>
+        
+        
+        <div id="infocont">
+            <div id="imgdiv"><img src="" alt="pokemon sprite" id="poksprite" ></div>
+            <div id='statDisp'>
+                <h1 id='pokename'></h1>
+                <p id='poketype'></p>
+                <div id='htwtDisp'>
+                    <p id='pokeheight'></p>
+                    <p id='pokeweight'></p>
+                </div>
+                <div id='statCont'>
+                    <h2 id='statsTitle'></h2>
+                    <div id='statsGrid' >
+                        <div id='hpBox' class='statBox'></div>
+                        <div id='atkBox' class='statBox'></div>
+                        <div id='spatkBox' class='statBox'></div>
+                        <div id='spdBox' class='statBox'></div>
+                        <div id='defBox' class='statBox'></div>
+                        <div id='spdefBox' class='statBox'></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div style="position:fixed; bottom:0; right:0; left:0; height:70px; background-color: #cc4d29;"></div>
+        
+        
+        
+        
+    </body>
+    
+    <script src="pokemon.js"></script>
+
+</html>
